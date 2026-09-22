@@ -1,0 +1,3 @@
+brand_name,generic_name,manufacturer,category,strength,dosage_form,barcode,sku,rack_location,strips_per_box,units_per_strip,purchase_price,mrp,selling_price,reorder_level,description
+Napa 500,Paracetamol,Beximco,Analgesics,500 mg,Tablet,8941100500123,NAPA500,A-01,20,10,0.80,1.20,1.10,100,Paracetamol tablet
+Seclo 20,Omeprazole,Square,Gastrointestinal,20 mg,Capsule,8941100500456,SECLO20,B-02,10,10,4.50,6.00,5.50,50,Omeprazole capsule
