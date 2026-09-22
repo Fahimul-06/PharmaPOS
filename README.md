@@ -146,3 +146,58 @@ Before real use:
 - Backend JavaScript files pass `node --check` syntax validation.
 - Frontend TS/TSX files pass TypeScript parser/transpilation syntax validation.
 - Full dependency installation/build could not be executed in the artifact environment because npm registry access was unavailable; run `npm install && npm run typecheck && npm run build` in a networked environment before deployment.
+
+## Mock/demo data
+
+A repeatable demo dataset is included for testing the dashboard, POS, inventory and reports without mixing test data into the real Main Pharmacy branch.
+
+It creates a separate **Demo Pharmacy (`DEMO`)** branch containing:
+
+- 14 medicines
+- 16 stock batches, including low-stock and near-expiry examples
+- 5 customers
+- 4 demo staff accounts
+- 9 recent sales across cash, card, bKash, Nagad, Bangla QR and due
+- Stock movement history and an audit entry
+
+### Seed locally
+
+```bash
+npm run seed:mock
+```
+
+Rebuild the demo dataset:
+
+```bash
+npm run seed:mock -- --force
+```
+
+Demo credentials (default password):
+
+```text
+Manager:    demo.manager@pharmapos.local
+Cashier:    demo.cashier@pharmapos.local
+Pharmacist: demo.pharmacist@pharmapos.local
+Inventory:  demo.inventory@pharmapos.local
+Password:   Demo12345!
+```
+
+Override the demo password with `MOCK_USER_PASSWORD` before seeding if desired.
+
+### Seed once on Render
+
+Because Render does not provide an interactive shell on every plan, you can seed once during app startup:
+
+```env
+SEED_MOCK_DATA=true
+```
+
+Redeploy. The seed is idempotent and will run only once. After the data appears, set `SEED_MOCK_DATA=false` or remove it.
+
+For an intentional CLI seed in `NODE_ENV=production`, you must additionally set:
+
+```env
+ALLOW_MOCK_SEED=true
+```
+
+Do not use demo accounts or mock data as real production records.

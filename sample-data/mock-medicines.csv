@@ -1,0 +1,14 @@
+brand_name,generic_name,manufacturer,category,strength,dosage_form,barcode,sku,rack_location,strips_per_box,units_per_strip,purchase_price,mrp,selling_price,reorder_level,description
+Napa 500,Paracetamol,Beximco Pharmaceuticals,Analgesics,500 mg,Tablet,8801000000011,DEMO-NAPA500,A-01,20,10,0.80,1.20,1.10,120,Mock medicine
+Napa Extra,Paracetamol + Caffeine,Beximco Pharmaceuticals,Analgesics,500 mg + 65 mg,Tablet,8801000000028,DEMO-NAPAEX,A-02,20,10,1.45,2.10,2.00,100,Mock medicine
+Seclo 20,Omeprazole,Square Pharmaceuticals,Gastrointestinal,20 mg,Capsule,8801000000035,DEMO-SECLO20,B-01,10,10,4.30,6.00,5.50,60,Mock medicine
+Sergel 20,Esomeprazole,Healthcare Pharmaceuticals,Gastrointestinal,20 mg,Capsule,8801000000042,DEMO-SERGEL20,B-02,10,10,5.10,7.00,6.50,50,Mock medicine
+Alatrol 10,Cetirizine Hydrochloride,Square Pharmaceuticals,Antihistamines,10 mg,Tablet,8801000000059,DEMO-ALATROL10,C-01,20,10,1.75,3.00,2.50,80,Mock medicine
+Zimax 500,Azithromycin,Square Pharmaceuticals,Antibiotics,500 mg,Tablet,8801000000066,DEMO-ZIMAX500,D-01,5,3,31.00,40.00,38.00,20,Mock medicine
+Monas 10,Montelukast,ACME Laboratories,Respiratory,10 mg,Tablet,8801000000080,DEMO-MONAS10,E-01,10,10,14.00,20.00,18.00,30,Mock medicine
+Ceevit 250,Vitamin C,Square Pharmaceuticals,Vitamins & Supplements,250 mg,Tablet,8801000000097,DEMO-CEEVIT250,F-01,20,10,1.45,2.50,2.20,90,Mock medicine
+Orsaline-N,Oral Rehydration Salts,SMC,Other,10.25 g,Sachet,8801000000103,DEMO-ORSALINE,F-02,25,1,5.00,6.00,6.00,60,Mock medicine
+Losar 50,Losartan Potassium,Square Pharmaceuticals,Cardiovascular,50 mg,Tablet,8801000000110,DEMO-LOSAR50,G-01,10,10,7.20,10.00,9.50,50,Mock medicine
+Comet 500,Metformin Hydrochloride,Square Pharmaceuticals,Diabetes,500 mg,Tablet,8801000000127,DEMO-COMET500,G-02,10,10,3.50,5.00,4.50,50,Mock medicine
+Napa Syrup,Paracetamol,Beximco Pharmaceuticals,Analgesics,120 mg/5 ml,Syrup,8801000000134,DEMO-NAPASYR,H-01,1,1,28.00,40.00,38.00,12,Mock medicine
+Savlon Cream,Cetrimide + Chlorhexidine,ACI Limited,Dermatology,30 g,Cream,8801000000141,DEMO-SAVLON30,H-02,1,1,45.00,60.00,58.00,10,Mock medicine

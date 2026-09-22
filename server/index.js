@@ -40,6 +40,11 @@ async function bootstrap() {
 }
 await bootstrap();
 
+if (process.env.SEED_MOCK_DATA === 'true') {
+  const { seedMockData } = await import('./seed/mockData.js');
+  await seedMockData();
+}
+
 const app = express();
 app.set('trust proxy', 1);
 app.disable('x-powered-by');
